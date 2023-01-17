@@ -1,0 +1,103 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+.hero-image {
+    background-image: url("images/raska.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+  }
+
+#hero {
+    color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.hero-txt-naslov {
+    background-color: lavender;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: lavender;
+    color: teal;
+    font-family: 'DM Sans', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+
+#image-profil{
+    width:auto;
+    height: fit-content;
+    border-radius: 25%;
+}
+
+.images-small {
+    float:inherit;
+    width:  150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 25%;
+}
+
+
+.activities {
+    color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    padding: 5px 10px;
+    
+}
+
+
+#activity-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.activities:hover {
+    background: #e1e1e1;
+    border: 2px solid #d0d0d0;
+    border-radius: 10px;
+ }
+
+ .card{
+    display: flex;
+    width: 600px;
+    margin: 30px auto;
+ }
+
+ .card-text{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 5px;
+ }
+
+ h6 {
+    margin: 0;
+ }
